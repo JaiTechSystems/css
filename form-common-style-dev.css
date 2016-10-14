@@ -272,7 +272,40 @@
     }
     
     @media screen and (max-width: 600px) {
+          
+          #Category td:nth-child(1),
+    #Material td:nth-child(1) {
+      width: 128px !important;
+      text-align: right;
+      margin-right: 1px;
+    }
+          
+          #Quantity
+          {
+                width: 124px;
+          }
+          
+      #projectSelection tr td:nth-child(1),
+    #phaseSelection tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+          
+       #projectSelection tr td:nth-child(1),
+    #phaseSelection tr td:nth-child(1),
+    #EquipmentCategoryGroup tr td:nth-child(1),
+    #EquipmentCategory tr td:nth-child(1),
+    #Equipment tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+    
+    #facilitySelections tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+          
       #Date-2 {
-        width: 116px !important;
+        width: 128px !important;
       }
     }
