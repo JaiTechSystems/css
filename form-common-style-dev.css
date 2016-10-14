@@ -1,7 +1,7 @@
 
       *
       {
-            font-size: 12px;
+            font-size: 1em;
       }
      
       #iForm {
@@ -246,6 +246,11 @@
     
          
     @media screen and (max-width: 800px) {
+         
+       *
+         {
+              font-size: 1em;
+         }
                 
       .dateleftmove {
         position: relative;
@@ -277,6 +282,11 @@
     }
     
     @media screen and (max-width: 600px) {
+         
+         *
+         {
+              font-size: 1em;
+         }
           
           #Category td:nth-child(1),
     #Material td:nth-child(1) {
