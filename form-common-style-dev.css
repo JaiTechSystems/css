@@ -1,4 +1,7 @@
 
+body {
+    -webkit-text-size-adjust: 100%;
+}
     
       #iForm {
       width: 100% !important;
