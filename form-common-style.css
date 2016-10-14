@@ -193,6 +193,10 @@
     #Equipment {
       margin-bottom: 0px;
     }
+
+    #Equipment{
+          display: none;
+      }
             
     footer{
     	width: 100%;
