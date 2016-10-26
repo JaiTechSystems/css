@@ -51,8 +51,9 @@
       margin: 4px 0px;
     }
     
-    textarea {
-      width: 100%;
+    input,textarea {
+      width: calc(100% - 4px);
+      padding-left: 4px;
     }
     
     #otherSelections tr td:nth-child(1) {
