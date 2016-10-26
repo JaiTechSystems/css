@@ -74,6 +74,7 @@ body {
     #Q4254 {
       width: calc(42% - 48.42px);
       display: inline;
+      padding-left: 4px;
     }
     
     #Q4254_units {
