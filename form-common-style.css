@@ -10,7 +10,7 @@
     
     #Category td:nth-child(1),
     #Material td:nth-child(1) {
-      width: 116px !important;
+      width: 101px !important;
       text-align: right;
       margin-right: 1px;
     }
@@ -60,7 +60,7 @@
     }
     
     #Quantity {
-      width: 112px;
+      width: 97px;
       text-align: right;
       display: inline-block;
       position: relative;
