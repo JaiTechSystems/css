@@ -1,4 +1,9 @@
-    #iForm {
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+    
+      #iForm {
       width: 100% !important;
       margin: 0 !important;
     }
@@ -8,7 +13,6 @@
     }
     
     #Category td:nth-child(1),
-    #umSection td:nth-child(1),
     #Material td:nth-child(1) {
       width: 116px !important;
       text-align: right;
@@ -28,7 +32,7 @@
     input,
     select,
     textarea {
-      width: 100%;
+      width: calc(100%);
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
@@ -50,13 +54,16 @@
     #otherSelections input {
       margin: 4px 0px;
     }
+
     
-    textarea {
-      width: 100%;
+    
+    input, textarea {
+      width: calc(100% - 4px);
+      padding-left: 4px;
     }
     
     #otherSelections tr td:nth-child(1) {
-      width: 101px;
+      width: 116px;
     }
     
     #Quantity {
@@ -70,9 +77,11 @@
     #Q4254 {
       width: calc(42% - 48.42px);
       display: inline;
+      padding-left: 4px;
     }
     
     #Q4254_units {
+      width: calc(42% - 58.42px);
       display: inline;
       background: #FFF !important;
       border: 1px solid #aaa;
@@ -132,14 +141,15 @@
     }
     
     input[type='submit'] {
-      width: 100px;
+      width: 75px;
       background: #9ba941;
       font-family: sans-serif;
       color: white;
       border: 1px solid #c9d57b;
-      padding: 5px 10px;
+      padding: 4px 8px;
       height: auto;
       border-radius: 0px !important;
+      font-size: 12px;
     }
     
     #projectSelection tr td:nth-child(1),
@@ -198,11 +208,11 @@
       }
             
     footer{
-    	width: 100%;
-    	background: #e0e3e6;
-    	padding: 4px 0px;
+      width: 100%;
+      background: #e0e3e6;
+      padding: 3px 0px;
         position: fixed;
-    	bottom: 0;
+      bottom: 0;
      }
     
 
@@ -239,6 +249,7 @@
     
          
     @media screen and (max-width: 800px) {
+         
                 
       .dateleftmove {
         position: relative;
@@ -249,12 +260,16 @@
         left: 0;
         pointer-events: unset;
       }
-      
+      #Q4254_units {
+        width: calc(42% - 70px) !important;
+        border: 1px solid #000;
+      }
       input[type='submit'] {
         width: 95%;
         background: #3498db;
         border: 1px solid #2980b9;
         padding: 10px 30px;
+        font-size: 16px;
       }
           footer{
             background: none;
@@ -266,7 +281,41 @@
     }
     
     @media screen and (max-width: 600px) {
-      #Date-2 {
-        width: 116px !important;
+         
+
+          #Category td:nth-child(1),
+    #Material td:nth-child(1) {
+      width: 128px !important;
+      text-align: right;
+      margin-right: 1px;
+    }
+          
+          #Quantity
+          {
+                width: 124px;
+          }
+          
+      #projectSelection tr td:nth-child(1),
+    #phaseSelection tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+          
+       #projectSelection tr td:nth-child(1),
+    #phaseSelection tr td:nth-child(1),
+    #EquipmentCategoryGroup tr td:nth-child(1),
+    #EquipmentCategory tr td:nth-child(1),
+    #Equipment tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+    
+    #facilitySelections tr td:nth-child(1) {
+      width: 128px;
+      text-align: right;
+    }
+          
+      #Date,#Date-2 {
+        width: 128px !important;
       }
     }
