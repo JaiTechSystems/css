@@ -12,6 +12,7 @@ body {
       width: 100%;
     }
     
+    #Quantity td:nth-child(1),
     #Category td:nth-child(1),
     #Material td:nth-child(1) {
       width: 116px !important;
