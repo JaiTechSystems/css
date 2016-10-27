@@ -9,6 +9,7 @@
     }
     
     #Category td:nth-child(1),
+    #umSection td:nth-child(1),
     #Material td:nth-child(1) {
       width: 116px !important;
       text-align: right;
