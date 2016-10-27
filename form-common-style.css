@@ -69,13 +69,13 @@
     }
     
     #Q4254 {
-      width: calc(42% - 48.42px);
+      // width: calc(42% - 48.42px);
       display: inline;
       padding-left: 4px;
     }
     
     #Q4254_units {
-      width: calc(42% - 58.42px);
+      // width: calc(42% - 58.42px);
       display: inline;
       background: #FFF !important;
       border: 1px solid #aaa;
